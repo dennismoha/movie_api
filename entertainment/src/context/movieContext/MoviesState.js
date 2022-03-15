@@ -19,7 +19,7 @@ const [state, dispatch] = useReducer(moviesReducer, initialState);
 
 const fetchMovies = async (data) => {
     let payload, url;
-    url = "https://api.themoviedb.org/3/trending/all/day?api_key=43a5acf389646ed5bc4af73efc0336a6"
+    url = `https://api.themoviedb.org/3/trending/all/day?api_key=${process.env.REACT_APP_API_KEY}`
     try {
         payload = await axios.get(url)
         console.log('payload is ', payload)
