@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useContext } from 'react';
+import moviesContext from '../../context/movieContext/MoviesContext';
 import './Search.css';
 
 const Search = () => {
     const [searchData, setSearchData] = useState({})
+    const movieContext = useContext(moviesContext)
+    const {fetchMovies,moviesPayload} = movieContext;
     const handleSubmit = (event) => {
         event.preventDefault();
         const value = event.target.value
@@ -12,11 +15,15 @@ const Search = () => {
     }
 
     useEffect(() => {
+        fetchMovies()
+        console.log('movies payload is ', moviesPayload)
         console.log('search data is ', searchData)
         return () => {
 
         }
-    }, [searchData])
+        
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[])
 
 
 
