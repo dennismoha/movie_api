@@ -1,0 +1,152 @@
+
+
+#search__bar {
+  position: absolute;
+  left: 130px;
+  top: 76px;
+  width: 1180px;
+  height: 44px;
+}
+
+#bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1180px;
+  height: 44px;
+  background: #ffffff;
+  background-blend-mode: normal;
+}
+
+#placeholde {
+  position: absolute;
+  left: 40px;
+  top: 13px;
+  width: 38px;
+  height: 19px;
+  color: #0a1014;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1741177px;
+}
+
+.rectanlge__flex__container{
+  display: flex;
+  flex-flow: row wrap;
+  /* position: absolute; */
+  justify-content: space-around;
+  /* align-items: center; */
+  left: 100px;
+  top: 156px;
+  align-items: flex-start;
+  /* gap: 10px; */
+  row-gap: 15px;
+}
+
+
+#icon__magn {
+  position: absolute;
+  left: 12px;
+  top: 14px;
+  width: 16px;
+  height: 16px;
+}
+
+#icon__sear {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
+}
+
+#line {
+  position: absolute;
+  left: 10.67px;
+  top: 10.67px;
+  width: 4px;
+  height: 4px;
+  border: dashed #7a8c99;
+}
+
+#oval4 {
+  position: absolute;
+  left: 1.33px;
+  top: 1.33px;
+  width: 10.67px;
+  height: 10.67px;
+  border: solid #7a8c99;
+}
+
+#icon__sear {
+  visibility: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
+}
+
+#logo {
+  position: absolute;
+  left: 130px;
+  top: 24px;
+  width: 111px;
+  height: 32px;
+}
+
+#group2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 111px;
+  height: 32px;
+}
+
+#whatsin {
+  position: absolute;
+  left: 38px;
+  top: 10px;
+  width: 72.56px;
+  height: 12.77px;
+  background: #ffffff;
+  background-blend-mode: normal;
+}
+
+#group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+#oval2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 32px;
+  height: 32px;
+  border: 3px solid #ffffff;
+}
+
+#path {
+  position: absolute;
+  left: 13px;
+  top: 10px;
+  width: 9.59px;
+  height: 12.79px;
+  background: #ff9f1c;
+  background-blend-mode: normal;
+}
+
+#result {
+ 
+  width: 180px;
+  height: 240px;
+  background-color: white;
+  margin: 20px;
+  margin-bottom: 300px;
+}
