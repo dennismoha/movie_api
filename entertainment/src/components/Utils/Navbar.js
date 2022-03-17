@@ -13,14 +13,12 @@ export default function Navbar() {
         <Toolbar>       
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
              <Link to="/">Home</Link>
-          </Typography>          
+          </Typography>         
+                  
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-             <Link to="/album">album</Link>
-          </Typography>          
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-             <Link to="/movies">movies</Link>
-          </Typography>          
-          <Button color="inherit">Login</Button>
+             <Link to="/movies">Actors</Link>
+          </Typography>         
+         
         </Toolbar>
       </AppBar>
     </Box>

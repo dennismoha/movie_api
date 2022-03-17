@@ -13,10 +13,6 @@ const Genres = () => {
 	const [content, setContent] = useState([])
 	const [totalPages, setTotalPages] = useState(1)
 
-	console.log('list of totalPages ', totalPages)
-	console.log('list of page ', page)
-	console.log('list of content ', content)
-	console.log('list of genres ', genres)
 	useEffect(() => {
 		listOfGenreMovies()
 	}, [])

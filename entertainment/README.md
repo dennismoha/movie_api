@@ -14,6 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+- unzip this file
+- maneuvre to Entertainment folder
+- Run npm i to install all dependenices
+- manevure to this page 'https://developers.themoviedb.org/3/lists/get-list-details' and get an API Key
+- add it to .env. create this .env file under 'REACT_APP_API_KEY'
+- once done run npm start;
+- under Home you can search for any movie and click the search button to search. not enter key
+- under Actors it'll bring a list of different actors and click on each actor to get their details via a pop up
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

@@ -19,8 +19,7 @@ const Search = () => {
 	const movieContext = useContext(moviesContext)
 	const { fetchSearchedMovie, loading, fetchedSingleMovies} = movieContext
 
-	const searchHandler = (e) => {
-		console.log('search handler ', e.target.value)
+	const searchHandler = (e) => {	
 		setSearchData(e.target.value)
 	}
 
@@ -47,7 +46,7 @@ const Search = () => {
 				{singleMovies.results.map((cards, i) => (
 					<div>
 						<Grid item key={i}>
-							<Card sx={{height: '100%', display: 'flex', flexDirection: 'column'}}>
+							<Card  key={i} sx={{height: '100%', display: 'flex', flexDirection: 'column'}}>
 								<CardMedia
 									component="img"
 									image={`https://image.tmdb.org/t/p/w300/${cards.poster_path}`}
